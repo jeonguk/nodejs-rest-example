@@ -5,6 +5,8 @@
 ### Prerequisites
 - node
   - https://nodejs.org/ko/
+- mongodb
+  - https://docs.mongodb.com/manual/installation/
   
 ---
 
@@ -15,6 +17,7 @@ npm install --save express
 npm install --save-dev nodemon
 npm install --save morgan  설치 (logging)
 npm install --save body-parser
+npm install --save mongoose
 
   : package-json에 추가
     - scripts add
