@@ -14,6 +14,7 @@ mongoose.connect('mongodb://localhost:27017/node-shop', {
 mongoose.Promise = global.Promise;
 
 app.use(morgan('dev'));
+app.use('/uploads', express.static('uploads')); // static file path use
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 

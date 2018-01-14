@@ -18,6 +18,7 @@ npm install --save-dev nodemon
 npm install --save morgan  설치 (logging)
 npm install --save body-parser
 npm install --save mongoose
+npm install --save multer (images upload)
 
   : package-json에 추가
     - scripts add
