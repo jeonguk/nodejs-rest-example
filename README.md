@@ -10,26 +10,27 @@
   
 ---
 
-###
+### node modules install
 ```
 npm install
-npm install --save express 
-npm install --save-dev nodemon
-npm install --save morgan  설치 (logging)
-npm install --save body-parser
-npm install --save mongoose
-npm install --save multer (images upload)
 
   : package-json에 추가
     - scripts add
     "start": "nodemon"
 ```
+> express, nodemon, morgan (logging), body-parser, mongoose, multer (images upload), bcrypt, jsonwebtoken
 
 ##
 ### RUN
 npm start (서버실행)
 
 ---
+
+##
+### JWT
+```
+https://jwt.io/
+```
 
 ```
 * CORS?
