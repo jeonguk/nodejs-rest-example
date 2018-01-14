@@ -17,6 +17,9 @@ npm install
   : package-json에 추가
     - scripts add
     "start": "nodemon"
+
+create directory uploads
+
 ```
 > express, nodemon, morgan (logging), body-parser, mongoose, multer (images upload), bcrypt, jsonwebtoken
 
